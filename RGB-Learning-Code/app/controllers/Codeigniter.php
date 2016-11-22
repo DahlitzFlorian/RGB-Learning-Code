@@ -39,4 +39,10 @@ class Codeigniter extends MY_Controller
         $this->data['subview'] = 'codeigniter/basic_settings';
         $this->load->view('layout', $this->data);
     }
+    
+    public function structure()
+    {
+        $this->data['subview'] = 'codeigniter/structure';
+        $this->load->view('layout', $this->data);
+    }
 }
